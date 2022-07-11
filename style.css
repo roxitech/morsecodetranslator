@@ -8,24 +8,7 @@ body{
 sup{
     font-size: 55%;
 }
-.spn{
-    display:inline-block;
-    position:relative;
-    margin:10px;
-    padding:4px;
-    width:380px;
-    line-height: 18px;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    cursor: default;
-    background-color:black;
-    border-radius:5px;
-    font: 26px verdana;
-    color: #fff; 
-    text-align: center;
-}
+
 p {
 margin: 5px;
 }
