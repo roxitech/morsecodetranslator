@@ -1,0 +1,299 @@
+body{
+    background-color:#99ccff;
+    margin:0px;
+    text-align: center;
+}
+sup{
+    font-size: 55%;
+}
+.spn{
+    display:inline-block;
+    position:relative;
+    margin:10px;
+    padding:4px;
+    width:380px;
+    line-height: 18px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    background-color:black;
+    border-radius:5px;
+    font: 26px verdana;
+    color: #fff; 
+    text-align: center;
+}
+p {
+margin: 5px;
+}
+
+/* CSS below is required for translator */
+
+.Mcontainer {
+    display: inline-block;
+    position: relative;
+    width: 382px;
+    height: 302px;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    font: bold 11px sans-serif;
+    background-image: linear-gradient(to bottom, black 0%, black 100%);
+    box-shadow: 0px 4px 2px rgba(0,0,0,0.3);
+}
+.Mtitle {
+    -webkit-user-select: none;   
+    -moz-user-select: none;   
+    display: inline-block;
+    position: absolute;
+    width: 380px;
+    height: 20px;
+    margin: auto;
+    left: 0; right: 0;
+    font-size: 16px;
+    line-height: 20px;
+    color:  #fff;
+}
+.Mtxtareatitle {
+    -webkit-user-select: none;   
+    -moz-user-select: none; 
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: -36px;
+    height: 22px;
+    width: 106px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #555;
+    transform: rotate(-90deg);
+}
+.Mtxtarea {
+    display: block;
+    position: absolute;
+    top: 18px;
+    margin: auto;
+    left: 0; right: 0;
+    height: 98px;
+    width: 344px;
+    border: 0.5px solid #000;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-left: 24px;
+    resize: none;
+    background-color: #fffff0;
+    font: bold 10px courier;
+    color: #555;
+    text-transform: uppercase;
+    overflow: auto;
+    outline: 0;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.5);
+}
+.Minfo {
+    display: none;
+    position: absolute;
+    top: -6px; left:-6px;
+    padding: 6px;
+    height: auto;
+    width:  370px;
+    text-align: left;
+    border: 2px solid #ff0000;
+    border-radius: 6px;
+    box-shadow: 0px 4px 2px rgba(0,0,0,0.3);
+    background-image: linear-gradient(to bottom, rgba(195,0,255,1) 0%, rgba(255,0,0,1) 100%);
+    font: 11px sans-serif;
+    color: #fff;
+    opacity: 0;
+}
+.Mbuttonwrap {
+    display: block;
+    position: absolute;
+    top: 245px;
+    margin: auto;
+    left: 0; right: 0;
+    height: 26px;
+    width: 100%;
+}
+.Mbuttons {
+    display: inline-block;
+    width: 69px;
+    height: 22px;
+    border: none;
+    margin: 0px 3.1px 0px 3.1px;
+    background-color: transparent;
+    font: bold 11px sans-serif;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5), inset 0px 0.5px 1px rgba(255,255,255,0.8);
+    outline: 0;
+}
+.Mbuttons:hover {
+    color:  rgb(0,255,0);
+}
+.Mbuttons:active {
+    position: relative;
+    top: 1px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.8);
+}
+.Mchckboxwrap {
+    display: block;
+    position: absolute;
+    top: 274px;
+    left: 289px;
+    width: 87px;
+    height: 21px;
+    line-height: 22px;
+    border: 0.5px solid #000;
+    color: #555;
+    background: #fff;
+    -webkit-user-select: none;   
+    -moz-user-select: none;   
+}
+.Mselect {
+    display: block;
+    position: absolute;
+    top: 274px;
+    left: 6px;
+    width: 88px;
+    height: 22px;
+    border: 0.5px solid #000;
+    padding-left: 5%;
+    background: #fff;
+    font: bold 11px sans-serif;
+    color: #555;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+}
+::selection {
+    color: #fff;
+    background: #555;
+}
+.Mchckbox {
+    margin-top: 1px;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: 0;
+}
+.modal {
+    display: none;
+    position: absolute;
+    margin: auto;
+    top: 0;right: 0;bottom: 0;left: 0;
+    background: rgba(0,0,0,0.5);
+    -webkit-user-select: none;  
+    -moz-user-select: none;
+    opacity: 0;
+    text-align: center;
+}
+.modal > div {   
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 70px;
+    margin: 10% auto;
+    padding: 10px;
+    border: 2px solid #ff0000;
+    border-radius:6px;
+     background-image: linear-gradient(to bottom, rgba(195,0,255,1) 0%, rgba(255,0,0,1) 100%);
+    font: bold 11px sans-serif;
+    color: #fff;
+    box-shadow: 4px 4px 2px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.sliderWrap {
+    display: block;
+    position: absolute;
+    top: 274px;
+    margin:auto;padding: 0;
+    left: 0; right: 0;
+    width: 184px;
+    height: 21px;
+    border: 0.5px solid #000;
+    background: #fff;
+    font: bold 11px sans-serif;
+    color: #555;
+    line-height: 21px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 50%;
+    margin: 0;padding: 0;
+    vertical-align: middle;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #666;
+}
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.5);
+    border: none;
+    height: 10px;
+    width: 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #666;
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #666;
+}
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.5);
+    height: 10px;
+    width: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    cursor: pointer;
+}
+input[type=range]::-ms-thumb {
+    height: 10px;
+    width: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: transparent;
+    border: 5px solid transparent;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #666;
+}
+input[type=range]::-ms-fill-upper {
+    background: #666;
+}
+::-ms-tooltip {
+    display: none;
+}
+select::-ms-expand {
+    display: none;
+}
