@@ -3,7 +3,7 @@ body{
   width: 100%;
     background-color:#99ccff;
     margin:0px;
-    text-align: right;
+    text-align: center;
 }
 sup{
     font-size: 55%;
@@ -11,7 +11,7 @@ sup{
 .spn{
     display:inline-block;
     position:relative;
-    margin:10px;
+  
     padding:4px;
     width:380px;
     line-height: 18px;
